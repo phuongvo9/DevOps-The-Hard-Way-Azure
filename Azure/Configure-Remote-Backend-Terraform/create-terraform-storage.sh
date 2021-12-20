@@ -18,6 +18,14 @@ echo "container_name: $CONTAINER_NAME"
 echo "access_key: $ACCOUNT_KEY"
 
 
+
+
+
+
+
+# Official CLI https://docs.microsoft.com/en-us/cli/azure/storage/account?view=azure-cli-latest#az_storage_account_create
+
+
 # # Create Resource Group
 # az group create -l $LOCATION -n $RESOURCE_GROUP_NAME
 
@@ -26,10 +34,3 @@ echo "access_key: $ACCOUNT_KEY"
 
 # # Create blob Container
 # az storage container create  --name tfstate-backend --account-name $STORAGE_ACCOUNT_NAME
-
-
-
-
-# Official CLI https://docs.microsoft.com/en-us/cli/azure/storage/account?view=azure-cli-latest#az_storage_account_create
-
-
